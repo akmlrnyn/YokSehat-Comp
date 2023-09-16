@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- Navbar Starts -->
+
+    <nav class="bg-white border-b-[1px] border-gray-200 fixed top-0 w-screen z-30">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="" class="flex items-center">
+                <img src="resources/+.svg" class="h-8 mr-3 ml-[53px] bg-[#399147] rounded-lg p-2" alt="" />
+                <span class="self-center text-2xl font-bold  whitespace-nowrap text-black">Yoksehat</span>
+            </a>
+            <div class="flex md:order-2">
+                <div class="mr-[20px]">
+                    <button type="button"
+                        class="text-black bg-white font-medium rounded-lg text-sm px-4 py-2 text-center  md:mr-0">Sign
+                        In</button>
+                </div>
+                <div class="mr-[10px]">
+                    <button type="button"
+                        class="text-white bg-[#50945D] border-[1px] border-[#50945D] font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0">Sign
+                        Up</button>
+                </div>
+                <button data-collapse-toggle="navbar-cta" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="/" id=""
+                            class="block py-2 pl-3 pr-4 text-black  md:bg-transparent md:p-0 font-medium focus:border-b-2 focus:border-[#399147] focus:text-[#399147]  link_nav">Home</a>
+                    </li>
+                    <li>
+                        <a href="/konsultasi.html" id=""
+                            class="block py-2 pl-3 pr-4 text-black   md:p-0 font-medium focus:border-b-2 focus:border-[#399147] focus:text-[#399147] link_nav">Consultation</a>
+                    </li>
+                    <li>
+                        <a href="/artikel_1.html" id=""
+                            class="block py-2 pl-3 pr-4 text-black   md:p-0 font-medium focus:border-b-2 focus:border-[#399147] focus:text-[#399147] link_nav">Article</a>
+                    </li>
+                    <li>
+                        <a href="/challange.html" id=""
+                            class="block py-2 pl-3 pr-4 text-black   md:p-0 font-medium focus:border-b-2 focus:border-[#399147] focus:text-[#399147] link_nav">Challange</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar Ends -->
+
+    <!-- Hero Section Starts -->
+
+    <div class="ml-[150px] z-0b h-[100vh]">
+        <div class="flex relative">
+            <div class="block mt-[120px] mb-[175px]">
+                <div class="">
+                    <div class="mb-[20px] h-[140px]">
+                        <p class="text-6xl font-bold w-[600px] mt-[140px]">Tempatnya Cari Tahu</p>
+                        <p class="text-6xl font-bold w-[600px]">Tentang Kesehatan</p>
+                    </div>
+                    <div class="">
+                        <p class="text-xl font-normal w-[699px] text-[#878787]">Dengan Yoksehat, Anda akan mengetahui
+                            penyakit yang sedang dialami, membaca 500+artikel berbagai topik, serta dapatkan perubahan
+                            badanmu dalam waktu 30 hari dengan Challange diet.</p>
+                    </div>
+                </div>
+                <div class=" mt-[62px]">
+                    <form class="w-[476px] rounded-none">
+                        <label for="default-search"
+                            class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
+                        <div class="flex items-center">
+                            <input type="search" id="default-search"
+                                class="block w-full p-4 pl-[24px] text-sm text-gray-900 rounded-md bg-[#FDFDFD] h-[56px] mr-[20px] border border-stone-300"
+                                placeholder="Search Penyakit, Tips Kesehatan..." required>
+                            <button type="submit"
+                                class="text-white  focus:ring-4 focus:outline-none focus:ring-green-700 font-medium rounded-md text-sm w-[115px] h-[56px] px-[24px] bg-[#399147]">
+                                <div class="flex">
+                                    <div class="mr-[4px]">
+                                        <img src="resources/Landing Page/Huge-icon/interface/outline/search 02.svg"
+                                            alt="" class="text-[#FDFDFD]">
+                                    </div>
+                                    <div class="">
+                                        <p class="">Cari</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="mt-[70px] ml-[40px]">
+                <div class="bg-gradient-to-l from-[#399147] opacity-[25%] w-[580px] h-[780px]">
+                </div>
+                <div class="z-0">
+                    <img src="resources/Landing Page/Rectangle_34624340-removebg-preview.png" alt=""
+                        class="h-[98vh] w-[45vw] absolute top-6 right-[1px] z-0 ">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Hero Section Ends -->
+
+    <!-- Statistics Section Starts -->
+
+    <div class="h-[283px] bg-[#F6FAF7] flex items-center justify-center">
+        <div class="flex">
+            <div class="flex px-[38px]">
+                <div class="">
+                    <p class="mr-5 text-[#399147] text-[44px] font-semibold">300+</p>
+                </div>
+                <div class="w-[207px]">
+                    <p class="text-neutral-700 text-xl font-normal">Berhasil Mendapatkan Badan Impian Mereka</p>
+                </div>
+                <div class=""></div>
+            </div>
+            <div class="flex px-[38px] border-x-2 border-[#399147] h-[51px]">
+                <div class="">
+                    <p class="mr-5 text-[#399147] text-[44px] font-semibold">
+                        24/7
+                    </p>
+                </div>
+                <div class="w-[207px]">
+                    <p class="text-neutral-700 text-xl font-normal">
+                        Konsultasi kapan saja,
+                        Di Mana Saja
+                    </p>
+                </div>
+                <div class=""></div>
+            </div>
+            <div class="flex px-[38px]">
+                <div class="">
+                    <p class="mr-5 text-[#399147] text-[44px] font-semibold">500+</p>
+                </div>
+                <div class="w-[207px]">
+                    <p class="text-neutral-700 text-xl font-normal">Artikel Seputar Kesehatan</p>
+                </div>
+                <div class=""></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistics Section Ends -->
+
+    <!-- About Yoksehat Section Starts -->
+
+    <div class="flex justify-around items-center pt-[170px] pb-[75px]">
+        <div class="w-[492px]">
+            <div class="">
+                <p class="text-[40px] font-bold">Tentang Yoksehat</p>
+            </div>
+            <div class="my-[18px]">
+                <p class="text-xl font-normal text-[#878787]">Yoksehat adalah platform yang dibuat untuk menyelesaikan
+                    masalah - masalah kesehatan yang sedang kamu alami dengan menanyakan langsung kepada pakarnya. Kami
+                    menyediakan informasi infomasi kesehatan yang akurat, terpercaya, dan....</p>
+            </div>
+            <div class="mt-[27px] border-l-4 border-[#399147]">
+                <div class="flex ml-[20px] mb-[22px]">
+                    <div class="mr-[10px]">
+                        <img src="resources/Landing Page/Huge-icon/interface/outline/check-circle.svg" alt="">
+                    </div>
+                    <div class="">
+                        <p class="">Dilayani langsung oleh ahlinya</p>
+                    </div>
+                </div>
+                <div class="flex ml-[20px]">
+                    <div class="mr-[10px]">
+                        <img src="resources/Landing Page/Huge-icon/interface/outline/check-circle.svg" alt="">
+                    </div>
+                    <div class="">
+                        <p class="">Informasi kesehatan yang terverifikasi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <button type="button"
+                    class="bg-[#50945D] border-[1px] border-[#50945D] font-medium rounded-lg p-[20px] mr-3 mt-[50px] w-[164px]">
+                    <a href="" class="text-center text-white text-xl">Selengkapnya</a>
+                </button>
+            </div>
+
+        </div>
+        <div class="">
+            <div class="absolute right-[650px] top-[1204px]  z-20">
+                <img src="resources/Landing Page/Group 8.svg" alt="">
+            </div>
+            <div class="relative z-10">
+                <img src="resources/Landing Page/Rectangle 34624339.png" alt="">
+            </div>
+            <div class="absolute top-[1615px] left-[1333px] z-0">
+                <img src="resources/Landing Page/Group 8.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Yoksehat Section Ends -->
+
+    <!-- Feature Section Starts -->
+
+    <div class="h-[100vh]">
+        <div class="flex justify-center mt-[75px] mb-[70px]">
+            <div class="">
+                <p class="text-[40px] font-bold text-[#373737] text-center">Fitur - fitur kami</p>
+                <p class="text-[20px] font-light text-[#878787]">Kami Menyediakan Fitur-fitur untuk Hidup Lebih Sehat
+                </p>
+            </div>
+        </div>
+        <div class="flex justify-evenly pt-[70px]">
+            <div class="relative  h-[368px]">
+                <div class="absolute z-10 left-[76px] -top-[80px]">
+                    <img src="resources/Landing Page/Chat.svg" alt="" class="p-[28px] bg-[#399147] rounded-[500px]">
+                </div>
+                <div class="bg-[#F6FAF7] px-[76px] py-[59px] rounded-2xl relative z-0">
+                    <div class="">
+                        <p class="text-[28px] font-semibold text-[#373737] ">Konsultasi</p>
+                    </div>
+                    <div class="w-[238px] mt-[28px]">
+                        <p class="font-normal text-xl text-[#878787] ">Cari masalah yang sedang kamu alami
+                            dan temukan solusinya.Kamu juga bisa menanyakan masalahmu</p>
+                    </div>
+                    <div class="mt-[67px]">
+                        <a href="" class="text-2xl text-[#399147] font-medium ">Konsultasi Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="relative z-0 h-[368px]">
+                <div class="absolute z-10 left-[76px] -top-[80px]">
+                    <img src="resources/Landing Page/Document.svg" alt="" class="p-[28px] bg-[#399147] rounded-[500px]">
+                </div>
+                <div class="bg-[#F6FAF7] px-[76px] py-[59px] rounded-2xl relative z-0">
+                    <div class="">
+                        <p class="text-[28px] font-semibold text-[#373737] ">Artikel</p>
+                    </div>
+                    <div class="w-[286px] mt-[28px]">
+                        <p class="font-normal text-xl text-[#878787]  pb-[56px]">Baca Artikel seputar
+                            kesehatan dari
+                            yang terbaru, hingga yang terpopuler. Dengan berbagai topik yang disajikan</p>
+
+                        <div class="">
+                            <a href="" class="text-2xl text-[#399147] font-medium">Baca
+                                Artikel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative z-0  h-[368px]">
+                <div class="absolute z-10 left-[76px] -top-[80px]">
+                    <img src="resources/Landing Page/Vector.svg" alt=""
+                        class="px-[46px] py-[25px] bg-[#399147] rounded-[500px]">
+                </div>
+                <div class="bg-[#F6FAF7] px-[76px] py-[59px] rounded-2xl relative z-0">
+                    <div class="">
+                        <p class="text-[28px] font-semibold text-[#373737] ">YokChallenge</p>
+                    </div>
+                    <div class="w-[268px] mt-[28px]">
+                        <p class="font-normal text-xl text-[#878787]  pb-[56px]">Tantang dirimu dengan
+                            mengikuti
+                            program diet 30 hari dengan menu yang kami sediakan. Dapatkan hasilnya</p>
+                        <div class="">
+                            <a href="" class="text-2xl text-[#399147] font-medium">Lihat Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Section Ends -->
+
+    <!-- List Dokter Starts -->
+
+    <div class="h-[100vh]">
+        <div class="flex justify-center">
+            <div class="">
+                <p class="text-[40px] font-bold text-[#373737] text-center">Dokter Dokter Kami</p>
+                <p class="text-[20px] font-light text-[#878787]">Bicarakan masalah kesehatan anda dengan dokter
+                    terpercaya</p>
+            </div>
+        </div>
+        <div class="flex justify-around mt-[79.38px] items-center">
+            <div class="w-[286px] h-[420px]">
+                <div class="rounded-full">
+                    <img src="resources/Landing Page/image 30.png" alt="" class=" rounded-[150px] bg-[#F8F8F8]">
+                </div>
+                <div class="">
+                    <p class="text-center text-neutral-700 text-[28px] font-semibold mb-[8px] mt-[24px]">Dr. Riza (Sp.A)
+                    </p>
+                </div>
+                <div class="">
+                    <p class="text-center text-green-600 text-xl font-normal">Dokter Spesialis Anak</p>
+                </div>
+                <div class="flex justify-center  mt-[20px]">
+                    <div class="">
+                        <img src="resources/Landing Page/Twitter logo.svg" alt="" class="mr-[20px]">
+                    </div>
+                    <div class="">
+                        <img src="resources/Landing Page/Linkedin logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="w-[286px] h-[420px]">
+                <div class="flex justify-center">
+                    <div class="rounded-[350px]">
+                        <img src="resources/Landing Page/portrait-professional-medical-worker-posing-picture-with-arms-folded 2.png"
+                            alt="" class=" rounded-[800px] bg-[#F8F8F8]">
+                    </div>
+                </div>
+                <div class="">
+                    <p class="text-center text-neutral-700 text-[28px] font-semibold mb-[8px] mt-[24px]">Dr. Adhimas
+                        (Sp.PD)
+                    </p>
+                </div>
+                <div class="">
+                    <p class="text-center text-green-600 text-xl font-normal">Dokter Spesial penyakit dalam</p>
+                </div>
+                <div class="flex justify-center  mt-[20px]">
+                    <div class="">
+                        <img src="resources/Landing Page/Twitter logo.svg" alt="" class="mr-[20px]">
+                    </div>
+                    <div class="">
+                        <img src="resources/Landing Page/Linkedin logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="w-[286px] h-[420px]">
+                <div class="flex justify-center">
+                    <div class="rounded-full">
+                        <img src="resources/Landing Page/female-doctor-lab-coat-white-isolated-confident-smile 2.png"
+                            alt="" class="rounded-[270px] bg-[#F8F8F8] px-[13px]">
+                    </div>
+                </div>
+                <div class="">
+                    <p class="text-center text-neutral-700 text-[28px] font-semibold mb-[8px] mt-[24px]">Dr. Ajeng
+                    </p>
+                </div>
+                <div class="">
+                    <p class="text-center text-green-600 text-xl font-normal">Dokter Umum</p>
+                </div>
+                <div class="flex justify-center  mt-[20px]">
+                    <div class="">
+                        <img src="resources/Landing Page/Twitter logo.svg" alt="" class="mr-[20px]">
+                    </div>
+                    <div class="">
+                        <img src="resources/Landing Page/Linkedin logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- List Dokter Ends -->
+
+    <!-- List Article Starts -->
+    <div class="mx-[112px] h-[100vh]">
+        <div class="">
+            <div class="flex justify-between h-[44px] items-center">
+                <div class="">
+                    <p class="text-[40px] font-bold ">Baca Artikel Seputar Kesehatan</p>
+                </div>
+                <div class="">
+                    <p class="text-2xl font-medium text-[#399147] mr-[15px]">Lihat semua</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex mt-[40px]">
+            <div class="">
+                <p class="px-[24px] py-[18px] border border-[#399147] text-[#399147] bg-[#E0F9DB] rounded-lg">Terpopuler
+                </p>
+            </div>
+            <div class="">
+                <p class="mx-[24px] px-[24px] py-[18px] border border-[#878787] rounded-lg text-[#878787]">Tips Diet</p>
+            </div>
+            <div class="">
+                <p class="px-[24px] py-[18px] border border-[#878787] rounded-lg text-[#878787]">Kulit & Kecantikan</p>
+            </div>
+        </div>
+        <div class="flex justify-between">
+            <div class="mr-[24px]">
+                <div class="mt-[45px] w-[286px] pr-[25px] h-[511px]">
+                    <div class="">
+                        <img src="resources/Landing Page/Article-image/jamu.png" alt="" class="h-[301px]">
+                    </div>
+                    <div class="mt-[28px] text-2xl font-bold w-[286px]">
+                        <p class="">8 Obat Batuk Alami yang Manjur dan Aman</p>
+                    </div>
+                    <div class="w-[286px]">
+                        <p class="py-[20px] text-base font-normal text-[#4A576B]">Obat batuk alami bisa diandalkan untuk
+                            meringankan keluhan batuk, baik itu batuk berdahak maupun batuk...</p>
+                    </div>
+                    <div class="">
+                        <p class="text-sm font-semibold text-[#399147]">Baca Selengkapnya...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mr-[24px]">
+                <div class="mt-[45px] w-[286px] pr-[25px] h-[511px]">
+                    <div class="">
+                        <img src="resources/Landing Page/Article-image/alang-alang.png" alt="" class="h-[301px]">
+                    </div>
+                    <div class="mt-[28px] text-2xl font-bold w-[286px]">
+                        <p class="">5 Manfaat Akar Alang-Alang untuk Kesehatan</p>
+                    </div>
+                    <div class="w-[286px]">
+                        <p class="py-[20px] text-base font-normal text-[#4A576B]">Manfaat akar alang-alang untuk
+                            kesehatan sangatlah beragam. Bahan alami ini sudah sejak lama..</p>
+                    </div>
+                    <div class="">
+                        <p class="text-sm font-semibold text-[#399147]">Baca Selengkapnya...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-[45px] w-[286px] pr-[25px] h-[511px]">
+                <div class="">
+                    <img src="resources/Landing Page/Article-image/bintik.png" alt="" class="h-[301px]">
+                </div>
+                <div class="mt-[28px] text-2xl font-bold w-[286px]">
+                    <p class="">7 Obat Bisul Anak yang Ampuh di Apotik</p>
+                </div>
+                <div class="w-[286px]">
+                    <p class="py-[20px] text-base font-normal text-[#4A576B]">Obat bisul anak berguna untuk meredakan
+                        nyeri dan mengempiskan bisul, sekaligus membasmi infeksi...</p>
+                </div>
+                <div class="">
+                    <p class="text-sm font-semibold text-[#399147]">Baca Selengkapnya...</p>
+                </div>
+            </div>
+            <div class="mt-[45px] w-[286px] pr-[25px] h-[511px]">
+                <div class="">
+                    <img src="resources/Landing Page/Article-image/obat.png" alt="" class="h-[301px]">
+                </div>
+                <div class="mt-[28px] text-2xl font-bold w-[286px]">
+                    <p class="">5 Manfaat Antibiotik yang Wajib Diketahui</p>
+                </div>
+                <div class="w-[286px]">
+                    <p class="py-[20px] text-base font-normal text-[#4A576B]">Manfaat antibiotik adalah untuk mengatasi
+                        infeksi bakteri di tubuh. Antibiotik tidak efektif untuk infeksi...</p>
+                </div>
+                <div class="">
+                    <p class="text-sm font-semibold text-[#399147]">Baca Selengkapnya...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- List Article Ends -->
+
+    <!-- Newsletter Starts -->
+    <div class="flex justify-center">
+        <div class="relative">
+            <img src="resources/Landing Page/Rectangle 34624362.png" alt="" class="w-[1216px] rounded-lg">
+
+            <div class="absolute top-0">
+                <img src="resources/Landing Page/Vector 4.png" alt="" class="w-[1196px]">
+            </div>
+            <div class="absolute top-[66px] left-[311px]">
+                <p class=" text-[40px] font-bold text-white w-[594px] text-center">Dapatkan pemberitahuan saat kami
+                    meluncurkannya</p>
+                <p class="text-[16px] font-normal text-center text-white">Mendaftarlah ke buletin kami untuk mendapatkan
+                    informasi terbaru.</p>
+            </div>
+            <div class="absolute top-[240px] left-[363px]">
+                <form class="w-[476px] rounded-none">
+                    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
+                    <div class="flex items-center">
+                        <input type="search" id="default-search"
+                            class="block w-full p-4 pl-[24px] text-sm text-gray-900 rounded-md bg-[#FDFDFD] h-[56px] mr-[20px] border border-stone-300"
+                            placeholder="Masukkan email Anda" required>
+                        <button type="submit"
+                            class="text-white  focus:ring-4 focus:outline-none focus:ring-green-700 font-medium rounded-md text-sm w-[200px] h-[56px] px-[24px] bg-[#66BD6C]">
+                                <div class="">
+                                    <p class="">Beritahu saya</p>
+                                </div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Ends -->
+
+    <!-- FAQ Starts -->
+    <div class="bg-[#F6FAF7] py-[70px]">
+        <div class="flex justify-center">
+            <div class="">
+                <p class="text-[#373737] font-bold text-[40px]">Pertanyaan yang sering diajukan</p>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="">
+                <button id="btn_dropdown" class="border-t-2 w-[768px] h-[80px] mt-[70px]  flex items-center">
+                    <div class="my-[24px]">
+                        <p class=" text-neutral-700 text-xl font-medium leading-7">Apa manfaat mengunjungi
+                            web
+                            Yoksehat?</p>
+                    </div>
+                    <div class="ml-[345px]"><img id="ic_dropdown" src="resources/Landing Page/FAQs/Chevron down.png" alt=""></div>
+                </button>
+                <div id="menu_dropdown" class="hidden">
+                    <p class="text-[#878787] text-[16px] w-[720px] mb-[25px]">Ada banyak manfaat dari mengunjungi website ini, salah satunya kita bisa tanya jawab dengan dokter secara online, jadi kalian tidak perlu datang ke klinik/rumah sakit lagi.</p>
+                </div>
+                <div class="border-t-2 w-[768px] flex items-center">
+                    <div class="my-[24px]">
+                        <p class="w-[720px] text-neutral-700 text-xl font-medium leading-7">Bagaimana cara menemukan
+                            forum atau komunitas online yang dapat memberikan dukungan dan informasi kesehatan?</p>
+                    </div>
+                    <div class=""><img src="resources/Landing Page/FAQs/Chevron down.png" alt=""></div>
+                </div>
+                <div class="border-t-2 w-[768px] flex items-center">
+                    <div class="my-[24px]">
+                        <p class="w-[720px] text-neutral-700 text-xl font-medium leading-7">Bagaimana cara memilih web
+                            kesehatan yang dapat dipercaya?</p>
+                    </div>
+                    <div class=""><img src="resources/Landing Page/FAQs/Chevron down.png" alt=""></div>
+                </div>
+                <div class="border-t-2 w-[768px] flex items-center">
+                    <div class="my-[24px]">
+                        <p class="w-[720px] text-neutral-700 text-xl font-medium leading-7">Apakah ada risiko mengikuti
+                            saran atau informasi kesehatan di web?</p>
+                    </div>
+                    <div class=""><img src="resources/Landing Page/FAQs/Chevron down.png" alt=""></div>
+                </div>
+                <div class="border-t-2 w-[768px] flex items-center">
+                    <div class="my-[24px]">
+                        <p class="w-[720px] text-neutral-700 text-xl font-medium leading-7">Apakah ada batasan dalam
+                            menggunakan web kesehatan untuk mencari informasi?</p>
+                    </div>
+                    <div class=""><img src="resources/Landing Page/FAQs/Chevron down.png" alt=""></div>
+                </div>
+                <div class="border-t-2 w-[768px] flex items-center">
+                    <div class="my-[24px]">
+                        <p class="w-[720px] text-neutral-700 text-xl font-medium leading-7">Apakah ada web kesehatan
+                            yang memberikan informasi tentang gaya hidup sehat?</p>
+                    </div>
+                    <div class=""><img src="resources/Landing Page/FAQs/Chevron down.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ Ends -->
+
+    <!-- Company Starts -->
+    <div class="flex justify-evenly py-[70px]">
+        <div class="">
+            <img src="resources/Landing Page/Logo.png" alt="">
+        </div>
+        <div class="">
+            <img src="resources/Landing Page/Logo-1.png" alt="">
+        </div>
+        <div class="">
+            <img src="resources/Landing Page/Logo-2.png" alt="">
+        </div>
+        <div class="">
+            <img src="resources/Landing Page/Logo-3.png" alt="">
+        </div>
+        <div class="">
+            <img src="resources/Landing Page/Logo-4.png" alt="">
+        </div>
+    </div>
+    <!-- Company Ends -->
+
+    <!-- Footer Starts -->
+    <div class="h-[465px] border border-t-2 flex justify-between">
+        <div class="ml-[112px] pt-[70px]">
+            <div class="flex">
+                <div class="">
+                    <img src="resources/+.svg" class="h-8 mr-3 bg-[#399147] rounded-lg p-2" alt="" />
+                </div>
+                <div class="">
+                    <span class="self-center text-2xl font-bold  whitespace-nowrap text-black">Yoksehat</span>
+                </div>
+            </div>
+            <div class="w-[384px] py-[20px]">
+                <p class="">Making the world a better place through constructing elegant hierarchies.</p>
+            </div>
+            <div class="flex">
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon.png" alt="">
+                    </a>
+                </div>
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon-1.png" alt="">
+                    </a>
+                </div>
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon-2.png" alt="">
+                    </a>
+                </div>
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon-3.png" alt="">
+                    </a>
+                </div>
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon-4.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="pt-[70px] ml-[45px]">
+            <div class="flex">
+                <div class="mr-[70px]">
+                    <p class="text-sm font-semibold uppercase mb-[16px]">Solutions</p>
+                    <p class="text-base font-normal mb-[16px]">Marketing</p>
+                    <p class="text-base font-normal mb-[16px]">Analytics</p>
+                    <p class="text-base font-normal mb-[16px]">Commerce</p>
+                    <p class="text-base font-normal mb-[16px]">Insights</p>
+                </div>
+                <div class="mr-[70px]">
+                    <p class="text-sm font-semibold uppercase mb-[16px]">Support</p>
+                    <p class="text-base font-normal mb-[16px]">Pricing</p>
+                    <p class="text-base font-normal mb-[16px]">Documentation</p>
+                    <p class="text-base font-normal mb-[16px]">Guides</p>
+                    <p class="text-base font-normal mb-[16px]">API Status</p>
+                </div>
+                <div class="mr-[70px]">
+                    <p class="text-sm font-semibold uppercase mb-[16px]">Company</p>
+                    <p class="text-base font-normal mb-[16px]">About</p>
+                    <p class="text-base font-normal mb-[16px]">Blog</p>
+                    <p class="text-base font-normal mb-[16px]">Jobs</p>
+                    <p class="text-base font-normal mb-[16px]">Press</p>
+                    <p class="text-base font-normal mb-[16px]">Partners</p>
+                </div>
+                <div class="mr-[70px]">
+                    <p class="text-sm font-semibold uppercase mb-[16px]">Legal</p>
+                    <p class="text-base font-normal mb-[16px]">Claim</p>
+                    <p class="text-base font-normal mb-[16px]">Privacy</p>
+                    <p class="text-base font-normal mb-[16px]">Terms</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Ends -->
+
+
+
+    <script src="dropdown.js"></script>
+    <script src="nav.js"></script>
+
+
+</body>
+
+</html>
