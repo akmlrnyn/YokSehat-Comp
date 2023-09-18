@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar Starts -->
+
+    <nav class="bg-white border-b-[1px] border-gray-200 fixed top-0 w-screen z-30">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="" class="flex items-center">
+                <img src="resources/+.svg" class="h-8 mr-3 ml-[53px] bg-[#399147] rounded-lg p-2" alt="" />
+                <span class="self-center text-2xl font-bold  whitespace-nowrap text-black">Yoksehat</span>
+            </a>
+            <div class="flex md:order-2">
+                <div class="mr-[20px]">
+                    <button type="button"
+                        class="text-black bg-white font-medium rounded-lg text-sm px-4 py-2 text-center  md:mr-0">Sign
+                        In</button>
+                </div>
+                <div class="mr-[10px]">
+                    <button type="button"
+                        class="text-white bg-[#50945D] border-[1px] border-[#50945D] font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0">Sign
+                        Up</button>
+                </div>
+                <button data-collapse-toggle="navbar-cta" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="/" id=""
+                            class="block py-2 pl-3 pr-4 text-black  md:bg-transparent md:p-0 font-medium focus:border-b-2 focus:border-[#399147] focus:text-[#399147]  link_nav">Home</a>
+                    </li>
+                    <li>
+                        <a href="/konsultasi.html" id=""
+                            class="block py-2 pl-3 pr-4 text-black   md:p-0 font-medium focus:border-b-2 focus:border-[#399147] focus:text-[#399147] link_nav">Consultation</a>
+                    </li>
+                    <li>
+                        <a href="/artikel.html" id=""
+                            class="block py-2 pl-3 pr-4 text-black   md:p-0 font-medium focus:border-b-2 focus:border-[#399147] focus:text-[#399147] link_nav">Article</a>
+                    </li>
+                    <li>
+                        <a href="/challange.html" id=""
+                            class="block py-2 pl-3 pr-4 text-black   md:p-0 font-medium focus:border-b-2 focus:border-[#399147] focus:text-[#399147] link_nav">Challange</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar Ends -->
+
+    <!-- Hero Section Starts -->
+
+    <div class="w-[100vw] h-[492px]">
+        <div class="relative">
+            <img src="resources/Consultation Page/Rectangle 34624350.png" alt="" class="w-[100vw] h-[492px] mt-[70px]">
+            <div class="absolute top-[130px] ">
+                <div class="flex justify-center w-[100vw]">
+                    <div class="">
+                        <div class="flex justify-center">
+                            <div class="">
+                                <p class="text-center text-[56px] font-bold text-white">Konsultasi</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="">
+                                <p class="text-center w-[410px] text-[#EEEEEE] font-light">Cari masalah yang kamu alami
+                                    dan
+                                    temukan
+                                    solusinya.
+                                    Kamu juga bisa menanyakan masalahmu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="mt-[36px] mr-[40px]">
+                        <button type="submit"
+                            class="text-white border-2 border- font-medium rounded-md text-sm w-[369px] h-[56px] px-[24px] bg-[#399147] bg-opacity-0">
+                            <div class="flex items-center justify-center">
+                                <div class="mr-[10px]">
+                                    <img src="resources/Consultation Page/Huge-icon/education/solid/pen.svg" alt=""
+                                        class="text-[#FDFDFD]">
+                                </div>
+                                <div class="">
+                                    <p class=""> Buat Pertanyaanmu</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="mt-[36px]">
+                        <button type="submit"
+                            class="text-white  focus:ring-4 focus:outline-none focus:ring-green-700 font-medium rounded-md text-sm w-[369px] h-[56px] px-[24px] bg-[#399147]">
+                            <div class="flex items-center justify-center">
+                                <div class="mr-[10px]">
+                                    <img src="resources/Landing Page/Huge-icon/interface/outline/search 02.svg" alt=""
+                                        class="text-[#FDFDFD]">
+                                </div>
+                                <div class="">
+                                    <p class=""> Cari Pertanyaan Berdasarkan Topik</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section Ends -->
+
+
+    <!-- Question Starts -->
+    <div class="flex justify-evenly w-[100vw] ">
+        <div class="ml-[112px] mr-[120px] mt-[72px] flex border-b-2">
+            <div class="">
+                <div class="">
+                    <div class="w-[962px]  pb-[40px]">
+                        <div class="flex justify-between mr-[81px]">
+                            <div class="flex">
+                                <div class="">
+                                    <img src="resources/Consultation Page/pfp1.svg" alt="">
+                                </div>
+                                <div class="ml-[10px]">
+                                    <div class="">
+                                        <p class="text-xl font-normal">Michael Stevanus</p>
+                                    </div>
+                                    <div class="">
+                                        <p class="text-sm text-[#878787]">Last update 04/09/23</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="">
+                                    <img src="resources/Consultation Page/Time Circle.svg" alt="" class="mr-[4px]">
+                                </div>
+                                <div class="">
+                                    <p class="text-[#878787]">15 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-[16px]">
+                            <p class="text-2xl font-bold w-[493px]">Penyebab dan cara mengatasi bibir kering dan
+                                pecah-pecah
+                            </p>
+                        </div>
+                        <div class="my-[16px] w-[580px] text-xl text-[#878787] font-light">
+                            <p class="">Halo dokter, udah seminggu ini bibir saya kering dan pecah-pecah. Saya udah coba
+                                untuk lebih
+                                sering minum, pakai madu...</p>
+                        </div>
+                        <div class="my-[16px] text-[#399147] font-medium">
+                            <p class="">Dijawab oleh Dr. Adhimas (Sp.PD)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="w-[962px]  mt-[42px] pb-[40px]">
+                        <div class="flex justify-between mr-[81px]">
+                            <div class="flex">
+                                <div class="">
+                                    <img src="resources/Consultation Page/pfp2.svg" alt="">
+                                </div>
+                                <div class="ml-[10px]">
+                                    <div class="">
+                                        <p class="text-xl font-normal">Aulia Andini</p>
+                                    </div>
+                                    <div class="">
+                                        <p class="text-sm text-[#878787]">Last update 04/09/23</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="">
+                                    <img src="resources/Consultation Page/Time Circle.svg" alt="" class="mr-[4px]">
+                                </div>
+                                <div class="">
+                                    <p class="text-[#878787]">7 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-[16px]">
+                            <p class="text-2xl font-bold w-[493px]">Tangan sering kesemutan saat tidur, apa penyebabnya?
+                            </p>
+                        </div>
+                        <div class="my-[16px] w-[580px] text-xl text-[#878787] font-light">
+                            <p class="">Dokter, saya ada masalah di bagian tangan kiri dok, saya selalu tidur miring ke
+                                kanan, dan akhir-akhir ini tangan saya sering...</p>
+                        </div>
+                        <div class="my-[16px] text-[#399147] font-medium">
+                            <p class="">Dijawab oleh Dr. Riza (Sp.A)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="w-[962px]  mt-[42px] pb-[40px]">
+                        <div class="flex justify-between mr-[81px]">
+                            <div class="flex">
+                                <div class="">
+                                    <img src="resources/Consultation Page/pfp3.svg" alt="">
+                                </div>
+                                <div class="ml-[10px]">
+                                    <div class="">
+                                        <p class="text-xl font-normal">Gamaliel Audirga</p>
+                                    </div>
+                                    <div class="">
+                                        <p class="text-sm text-[#878787]">Last update 04/09/23</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="">
+                                    <img src="resources/Consultation Page/Time Circle.svg" alt="" class="mr-[4px]">
+                                </div>
+                                <div class="">
+                                    <p class="text-[#878787]">10 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-[16px]">
+                            <p class="text-2xl font-bold w-[493px]">Mengapa sering merasa gatal pada badan saat tidur?
+                            </p>
+                        </div>
+                        <div class="my-[16px] w-[580px] text-xl text-[#878787] font-light">
+                            <p class="">Badan gatal-gatal tanpa sebab paling sering dipicu oleh alergi. Kondisi lain
+                                seperti
+                                gigitan nyamuk...</p>
+                        </div>
+                        <div class="my-[16px] text-[#399147] font-medium">
+                            <p class="">Dijawab oleh Dr. Adhimas (Sp.PD)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="w-[962px]  mt-[42px] pb-[40px]">
+                        <div class="flex justify-between mr-[81px]">
+                            <div class="flex">
+                                <div class="">
+                                    <img src="resources/Consultation Page/pfp5.svg" alt="">
+                                </div>
+                                <div class="ml-[10px]">
+                                    <div class="">
+                                        <p class="text-xl font-normal">Yusuf wahid</p>
+                                    </div>
+                                    <div class="">
+                                        <p class="text-sm text-[#878787]">Last update 03/09/23</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="">
+                                    <img src="resources/Consultation Page/Time Circle.svg" alt="" class="mr-[4px]">
+                                </div>
+                                <div class="">
+                                    <p class="text-[#878787]">6 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-[16px]">
+                            <p class="text-2xl font-bold w-[493px]">Cara ampuh memutihkan ketiak dan selangkangan secara
+                                cepat</p>
+                        </div>
+                        <div class="my-[16px] w-[580px] text-xl text-[#878787] font-light">
+                            <p class="">Selamat pagi dokter Yoksehat, dok saya wanita 24 tahun. saya ada masalah soal
+                                kulit
+                                dok, saya sering pake deodorant tiap hari..</p>
+                        </div>
+                        <div class="my-[16px] text-[#399147] font-medium">
+                            <p class="">Dijawab oleh Dr. Adhimas (Sp.PD)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="w-[962px]  mt-[42px] pb-[40px]">
+                        <div class="flex justify-between mr-[81px]">
+                            <div class="flex">
+                                <div class="">
+                                    <img src="resources/Consultation Page/pfp6.svg" alt="">
+                                </div>
+                                <div class="ml-[10px]">
+                                    <div class="">
+                                        <p class="text-xl font-normal">Mauludi Gunawan</p>
+                                    </div>
+                                    <div class="">
+                                        <p class="text-sm text-[#878787]">Last update 03/09/23</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="">
+                                    <img src="resources/Consultation Page/Time Circle.svg" alt="" class="mr-[4px]">
+                                </div>
+                                <div class="">
+                                    <p class="text-[#878787]">6 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-[16px]">
+                            <p class="text-2xl font-bold w-[493px]">Bagaimana cara menghentikan flek coklat setelah
+                                haid?
+                            </p>
+                        </div>
+                        <div class="my-[16px] w-[580px] text-xl text-[#878787] font-light">
+                            <p class="">Hai dokter, dok saya 5 hari menstruasi, di hari ke 6 saya udah selesai., vagina
+                                saya
+                                di hari ke 8-10 keluar flek...</p>
+                        </div>
+                        <div class="my-[16px] text-[#399147] font-medium">
+                            <p class="">Dijawab oleh Dr. Riza (Sp.A)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="w-[962px]  mt-[42px] pb-[40px]">
+                        <div class="flex justify-between mr-[81px]">
+                            <div class="flex">
+                                <div class="">
+                                    <img src="resources/Consultation Page/pfp7.svg" alt="">
+                                </div>
+                                <div class="ml-[10px]">
+                                    <div class="">
+                                        <p class="text-xl font-normal">Sarah Syifa</p>
+                                    </div>
+                                    <div class="">
+                                        <p class="text-sm text-[#878787]">Last update 02/09/23</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="">
+                                    <img src="resources/Consultation Page/Time Circle.svg" alt="" class="mr-[4px]">
+                                </div>
+                                <div class="">
+                                    <p class="text-[#878787]">10 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-[16px]">
+                            <p class="text-2xl font-bold w-[493px]">Bagaimana cara mengatasi keringat dingin karena asam
+                                lambung?</p>
+                        </div>
+                        <div class="my-[16px] w-[580px] text-xl text-[#878787] font-light">
+                            <p class="">Selamat sore, salam sehat bagi kita semua dokter. Saya mau konsultasi saya
+                                akhir-akhir ini mengalami keringat dingin, kepala...</p>
+                        </div>
+                        <div class="my-[16px] text-[#399147] font-medium">
+                            <p class="">Dijawab oleh Dr. Riza (Sp.A)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute top-[565px] left-[1102px] h-[2026px] border-r-2"></div>
+        </div>
+
+        <!-- Question Ends -->
+
+        <!-- right bar Starts -->
+
+        <div class="mt-[70px] mr-[90px]">
+            <div class="">
+                <div class="">
+                    <p class="text-xl font-medium">Topik Rekomdasi</p>
+                </div>
+                <div class=" w-[278px] mt-[20px] rounded-lg flex  h-[46px] flex-wrap">
+                    <div class="">
+                        <p
+                            class="font-medium text-base bg-[#EEEEEE] w-[112px] mr-[16px] mb-[16px] rounded-lg text-center py-[10px]">
+                            Tips Diet</p>
+                    </div>
+                    <div class="">
+                        <p
+                            class="font-medium text-base bg-[#EEEEEE] w-[102px] mb-[16px] rounded-lg text-center py-[10px]">
+                            Gigi & Mulut</p>
+                    </div>
+                    <div class="">
+                        <p
+                            class="font-medium text-base bg-[#EEEEEE] w-[141px] mr-[16px] mb-[16px] rounded-lg text-center py-[10px]">
+                            Kecantikan</p>
+                    </div>
+                    <div class="">
+                        <p
+                            class="font-medium text-base bg-[#EEEEEE] w-[113px] mb-[16px] rounded-lg text-center py-[10px]">
+                            Jantung</p>
+                    </div>
+                    <div class="">
+                        <p
+                            class="font-medium text-base bg-[#EEEEEE] w-[135px] mr-[16px] mb-[16px] rounded-lg text-center py-[10px]">
+                            Kehamilan</p>
+                    </div>
+                    <div class="">
+                        <p
+                            class="font-medium text-base bg-[#EEEEEE] w-[121px] mb-[16px] rounded-lg text-center py-[10px]">
+                            Diabetes</p>
+                    </div>
+                    <div class="">
+                        <p
+                            class="font-medium text-base bg-[#EEEEEE] w-[86px] mr-[16px] mb-[16px] rounded-lg text-center py-[10px]">
+                            Kulit</p>
+                    </div>
+                    <div class="">
+                        <p
+                            class="font-medium text-base bg-[#EEEEEE] w-[154px] mb-[16px] rounded-lg text-center py-[10px]">
+                            Gizi & Nutrisi</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-[310px]">
+                <div class="">
+                    <p class="text-xl font-medium">Piih Dokter</p>
+                </div>
+                <div class="mt-[25px]">
+                    <div class="flex">
+                        <div class="">
+                            <img src="resources/Consultation Page/image 30.png" alt="" class="rounded-[50px] mr-[6px]">
+                        </div>
+                        <div class="ml-[10px]">
+                            <div class="">
+                                <p class="text-xl font-normal">Dr. Riza (Sp.A) </p>
+                            </div>
+                            <div class="">
+                                <p class="text-sm text-[#399147] mt-[6px]">Dokter Spesialis Kulit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex mt-[22px]">
+                    <div class="">
+                        <img src="resources/Consultation Page/portrait-professional-medical-worker-posing-picture-with-arms-folded 2.png"
+                            alt="" class="rounded-[50px] mr-[12px]">
+                    </div>
+                    <div class="ml-[10px]">
+                        <div class="">
+                            <p class="text-xl font-normal">Dr. Adhimas (Sp.PD)</p>
+                        </div>
+                        <div class="">
+                            <p class="text-sm text-[#399147] mt-[6px]">Dokter Spesialis Kulit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex mt-[22px] pb-[73px] border-b-2 ">
+                <div class="">
+                    <img src="resources/Consultation Page/female-doctor-lab-coat-white-isolated-confident-smile 2.png"
+                        alt="" class="rounded-[50px] mr-[16px]">
+                </div>
+                <div class="ml-[10px]">
+                    <div class="">
+                        <p class="text-xl font-normal">Dr. Ajeng</p>
+                    </div>
+                    <div class="">
+                        <p class="text-sm text-[#399147] mt-[6px]">Dokter Umum</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="">
+                    <div class="flex items-center mt-[22px] ">
+                        <div class="">
+                            <img src="resources/Consultation Page/Ellipse 1218.svg" alt=""
+                                class="rounded-[50px] mr-[7px]">
+                        </div>
+                        <div class="ml-[10px]">
+                            <div class="">
+                                <p class="text-xl font-normal">Gathan Naufarell</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-[10px]">
+                        <p class="font-bold">Cara alami untuk mengobati cantengan yang sudah bengkak</p>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex items-center mt-[22px] ">
+                        <div class="">
+                            <img src="resources/Consultation Page/right2.svg" alt=""
+                                class="rounded-[50px] mr-[7px]">
+                        </div>
+                        <div class="ml-[10px]">
+                            <div class="">
+                                <p class="text-xl font-normal">Andi Gunawan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-[10px]">
+                        <p class="font-bold">Cara menyembuhkan herpes zoster yang ada di punggung kiri</p>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex items-center mt-[22px] ">
+                        <div class="">
+                            <img src="resources/Consultation Page/Ellipse 1219.svg" alt=""
+                                class="rounded-[50px] mr-[7px]">
+                        </div>
+                        <div class="ml-[10px]">
+                            <div class="">
+                                <p class="text-xl font-normal">Nayla Sahranisa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-[10px]">
+                        <p class="font-bold">Cara menghilangkan rasa gatal di wajah yang muncul tiba-tiba</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- right bar Ends -->
+
+    <!-- pagination starts -->
+
+    <div class="mt-[77px]">
+        <div class="flex items-center justify-center">
+            <a href="#">
+                <button class="text-gray-600 rounded-l focus:outline-none prevPage mr-[16px]">
+                    <img src="resources/Article Page/Huge-icon/arrows/outline/arrow-left.svg" alt=""
+                        class="text-black">
+                </button>
+            </a>
+            <div class="flex space-x-2">
+                <a href="artikel_1.html" data-page="artikel_1.html"
+                    class="px-4 py-2 bg-[#50945D]  text-white focus:outline-none page rounded-[9.31px] ">
+                    1
+                </a>
+                <a href="" data-page=""
+                    class="px-4 py-2  bg-slate-300 bg-opacity-10 text-black focus:outline-none page rounded-[9.31px] ">
+                    2
+                </a>
+                <a href="" data-page=""
+                    class="px-4 py-2  bg-slate-300 bg-opacity-10 text-black focus:outline-none page rounded-[9.31px] ">
+                    3
+                </a>
+                <a href="" data-page=""
+                    class="px-4 py-2  bg-slate-300 bg-opacity-10 text-black focus:outline-none page rounded-[9.31px] ">
+                    4
+                </a>
+            </div>
+            <a href="">
+                <button class="text-gray-600 rounded-r focus:outline-none nextPage ml-[16px]">
+                    <img src="resources/Article Page/Huge-icon/arrows/outline/arrow-right.svg" alt="">
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <!-- pagination ends -->
+
+    <!-- Footer Starts -->
+
+    <div class="h-[465px] border border-t-2 flex justify-between mt-[77px]">
+        <div class="ml-[112px] pt-[70px]">
+            <div class="flex">
+                <div class="">
+                    <img src="resources/+.svg" class="h-8 mr-3 bg-[#399147] rounded-lg p-2" alt="" />
+                </div>
+                <div class="">
+                    <span class="self-center text-2xl font-bold  whitespace-nowrap text-black">Yoksehat</span>
+                </div>
+            </div>
+            <div class="w-[384px] py-[20px]">
+                <p class="">Making the world a better place through constructing elegant hierarchies.</p>
+            </div>
+            <div class="flex">
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon.png" alt="">
+                    </a>
+                </div>
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon-1.png" alt="">
+                    </a>
+                </div>
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon-2.png" alt="">
+                    </a>
+                </div>
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon-3.png" alt="">
+                    </a>
+                </div>
+                <div class="mr-[24px]">
+                    <a href="">
+                        <img src="resources/Landing Page/Footer/Footers/Footers/Social icon-4.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="pt-[70px] ml-[45px]">
+            <div class="flex">
+                <div class="mr-[70px]">
+                    <p class="text-sm font-semibold uppercase mb-[16px]">Solutions</p>
+                    <p class="text-base font-normal mb-[16px]">Marketing</p>
+                    <p class="text-base font-normal mb-[16px]">Analytics</p>
+                    <p class="text-base font-normal mb-[16px]">Commerce</p>
+                    <p class="text-base font-normal mb-[16px]">Insights</p>
+                </div>
+                <div class="mr-[70px]">
+                    <p class="text-sm font-semibold uppercase mb-[16px]">Support</p>
+                    <p class="text-base font-normal mb-[16px]">Pricing</p>
+                    <p class="text-base font-normal mb-[16px]">Documentation</p>
+                    <p class="text-base font-normal mb-[16px]">Guides</p>
+                    <p class="text-base font-normal mb-[16px]">API Status</p>
+                </div>
+                <div class="mr-[70px]">
+                    <p class="text-sm font-semibold uppercase mb-[16px]">Company</p>
+                    <p class="text-base font-normal mb-[16px]">About</p>
+                    <p class="text-base font-normal mb-[16px]">Blog</p>
+                    <p class="text-base font-normal mb-[16px]">Jobs</p>
+                    <p class="text-base font-normal mb-[16px]">Press</p>
+                    <p class="text-base font-normal mb-[16px]">Partners</p>
+                </div>
+                <div class="mr-[70px]">
+                    <p class="text-sm font-semibold uppercase mb-[16px]">Legal</p>
+                    <p class="text-base font-normal mb-[16px]">Claim</p>
+                    <p class="text-base font-normal mb-[16px]">Privacy</p>
+                    <p class="text-base font-normal mb-[16px]">Terms</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Ends -->
+
+
+</body>
+
+</html>
