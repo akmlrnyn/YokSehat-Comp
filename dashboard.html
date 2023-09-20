@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#E0E0E0]">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-[140vh]">
+    <!-- Sidebar Starts -->
+
+
+    <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar"
+        type="button"
+        class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+            </path>
+        </svg>
+    </button>
+
+    <aside id="logo-sidebar"
+        class="fixed top-0 left-0 z-40 w-[96px]  h-screen transition-transform -translate-x-full sm:translate-x-0 drop-shadow"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-[#F6FAF7]">
+            <a href="/" class="flex items-center ">
+                <img src="resources/Dashboard Page/Group 427319169.svg" class="w-[40px] h-[40px] mx-[10px] mt-[28px]"
+                    alt="Flowbite Logo" />
+            </a>
+            <ul class="space-y-[30px] space-x-2 font-medium">
+                <li>
+                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg mt-[80px] ml-2 group">
+                        <img src="resources/Dashboard Page/u_home-alt.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center py-2 ml-[4px] rounded-lg  group">
+                        <img src="resources/Dashboard Page/Vector.svg" alt=""
+                            class="py-[7px] px-[12px] bg-[#399147] rounded-[50px]">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  group">
+                        <img src="resources/Dashboard Page/Huge-icon/ecommerce/outline/reward.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  group">
+                        <img src="resources/Dashboard Page/Profile.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  group">
+                        <img src="resources/Dashboard Page/u_setting.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  group">
+                        <img src="resources/Dashboard Page/u_sign-out-alt.svg" alt="">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </aside>
+
+    <!-- Sidebar Ends -->
+
+    <!-- Search Bar starts -->
+
+    <div class="mt-[30px] ml-[130px] flex items-center">
+
+        <form class="flex items-center w-[1270px]">
+            <label for="voice-search" class="sr-only">Search</label>
+            <div class="relative w-full">
+                <div class="absolute inset-y-0 left-0 flex items-center px-3 pointer-events-none">
+                    <img src="resources/Dashboard Page/Huge-icon/menu/solid/menu-line-horizontal.svg" alt="">
+                    <img src="resources/Dashboard Page/Huge-icon/interface/solid/search 02.svg" alt=""
+                        class="ml-[19px]">
+                </div>
+                <input type="text" id="voice-search"
+                    class="bg-gray-50  text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-[90px] p-2.5  "
+                    placeholder="Search Task" required>
+                <button type="button" class="absolute inset-y-0 right-0 flex items-center pr-3 space-x-[20px]">
+                    <img src="resources/Dashboard Page/Group 8.svg" alt="">
+                    <img src="resources/Dashboard Page/Group 7.svg" alt="">
+                    <div class="flex items-center">
+                        <div class="">
+                            <img src="resources/Dashboard Page/Ellipse 1.svg" alt="">
+                        </div>
+                        <div class="ml-[8px]">
+                            <p class="text-base font-normal">Fajri Anwar</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- Search Bar ends -->
+
+    <!-- Hero Card starts -->
+
+    <div class="flex">
+        <div class="w-[900px] h-[950px] bg-white ml-[130px] mt-[50px] rounded-lg">
+            <div class="p-[30px]">
+                <p class="text-[32px] font-medium">Gaya Hidup Sehat 7 Hari ❤️‍🩹</p>
+                <p class="font-normal text-[#878787]">Ayo selesaikan challege nya dan dapatkan <span
+                        class="text-[#373737]">penghargaannya</span> ⭐️</p>
+            </div>
+            <div class="flex space-x-[16px] ml-[30px] mt-[25px]">
+                <div class=" w-[137px] ">
+                    <a class="text-white bg-[#399147] rounded-lg px-[46px] py-[10px]">Semua</a>
+                </div>
+                <div class="">
+                    <a class="w-[122px]  text-[#878787] border-2 bg-white rounded-lg px-[20px] py-[10px]">Sedang
+                        Berjalan</a>
+                </div>
+                <div class=" w-[137px] ">
+                    <a class="text-[#878787] border-2 bg-white rounded-lg px-[46px] py-[10px]">Selesai</a>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-[264px] h-[208px] bg-white drop-shadow ml-[30px] mt-[40px]">
+                    <div class="flex items-center justify-between mx-[20px]">
+                        <div class="flex items-center">
+                            <div class="">
+                                <a href="#" class="flex items-center py-2 ml-[4px] rounded-lg  group">
+                                    <img src="resources/Dashboard Page/Vector.svg" alt=""
+                                        class="py-[7px] px-[12px] bg-[#399147] rounded-[50px]">
+                                </a>
+                            </div>
+                            <div class="ml-[6px]">
+                                <p class="text-base font-medium text-[#878787]">Hari 1</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Huge-icon/device/outline/unlock.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-[20px] mt-[17px] flex  border-b-2 pb-[16px]">
+                        <div class="">
+                            <p class="mr-[5px]">&#8226;</p>
+                        </div>
+                        <div class="">
+                            <p class="w-56 text-base font-medium">Buat pilihan makanan yang rendah lemak dan tinggi
+                                serat..</p>
+                        </div>
+                    </div>
+                    <div class="mt-[20px] mx-[20px] flex justify-between">
+                        <div class="flex ">
+                            <div class="">
+                                <img src="resources/Dashboard Page/Huge-icon/interface/solid/check-rectangle.svg"
+                                    alt="">
+                            </div>
+                            <div class="">
+                                <p class="ml-[8px] text-[#878787]">4/4</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="text-[#399147]">Lihat Task</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[264px] h-[208px] bg-white drop-shadow ml-[30px] mt-[40px]">
+                    <div class="flex items-center justify-between mx-[20px]">
+                        <div class="flex items-center">
+                            <div class="">
+                                <a href="#" class="flex items-center py-2 ml-[4px] rounded-lg  group">
+                                    <img src="resources/Dashboard Page/Vector.svg" alt=""
+                                        class="py-[7px] px-[12px] bg-[#399147] rounded-[50px]">
+                                </a>
+                            </div>
+                            <div class="ml-[6px]">
+                                <p class="text-base font-medium text-[#878787]">Hari 2</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Huge-icon/device/outline/unlock.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-[20px] mt-[17px] flex border-b-2 pb-[16px]">
+                        <div class="">
+                            <p class="mr-[5px]">&#8226;</p>
+                        </div>
+                        <div class="">
+                            <p class="w-56 text-base font-medium">Mulailah hari Anda dengan 20 menit olahraga ringan,
+                                seperti berjalan atau...</p>
+                        </div>
+                    </div>
+                    <div class="mt-[20px] mx-[20px] flex justify-between">
+                        <div class="flex ">
+                            <div class="">
+                                <img src="resources/Dashboard Page/Huge-icon/interface/outline/check-rectangle.svg"
+                                    alt="">
+                            </div>
+                            <div class="">
+                                <p class="ml-[8px] text-[#878787]">2/5</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="text-[#399147]">Lihat Task</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[264px] h-[208px] bg-white drop-shadow ml-[30px] mt-[40px]">
+                    <div class="flex items-center justify-between mx-[20px]">
+                        <div class="flex items-center">
+                            <div class="">
+                                <a href="#" class="flex items-center py-2 ml-[4px] rounded-lg  group">
+                                    <img src="resources/Dashboard Page/Vector.svg" alt=""
+                                        class="py-[7px] px-[12px] bg-[#399147] rounded-[50px]">
+                                </a>
+                            </div>
+                            <div class="ml-[6px]">
+                                <p class="text-base font-medium text-[#878787]">Hari 3</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Huge-icon/device/solid/lock.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-[20px] mt-[17px] flex border-b-2 pb-[16px]">
+                        <div class="space-y-[7px]">
+                            <img src="resources/Dashboard Page/Rectangle 34624358.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624359.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360.png" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-[30px] mx-[20px] flex justify-between">
+                        <div class="flex ">
+                            <div class="">
+                                <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[264px] h-[208px] bg-white drop-shadow ml-[30px] mt-[40px]">
+                    <div class="flex items-center justify-between mx-[20px]">
+                        <div class="flex items-center">
+                            <div class="">
+                                <a href="#" class="flex items-center py-2 ml-[4px] rounded-lg  group">
+                                    <img src="resources/Dashboard Page/Vector.svg" alt=""
+                                        class="py-[7px] px-[12px] bg-[#399147] rounded-[50px]">
+                                </a>
+                            </div>
+                            <div class="ml-[6px]">
+                                <p class="text-base font-medium text-[#878787]">Hari 4</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Huge-icon/device/solid/lock.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-[20px] mt-[17px] flex border-b-2 pb-[16px]">
+                        <div class="space-y-[7px]">
+                            <img src="resources/Dashboard Page/Rectangle 34624358.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624359.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360.png" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-[30px] mx-[20px] flex justify-between">
+                        <div class="flex ">
+                            <div class="">
+                                <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[264px] h-[208px] bg-white drop-shadow ml-[30px] mt-[40px]">
+                    <div class="flex items-center justify-between mx-[20px]">
+                        <div class="flex items-center">
+                            <div class="">
+                                <a href="#" class="flex items-center py-2 ml-[4px] rounded-lg  group">
+                                    <img src="resources/Dashboard Page/Vector.svg" alt=""
+                                        class="py-[7px] px-[12px] bg-[#399147] rounded-[50px]">
+                                </a>
+                            </div>
+                            <div class="ml-[6px]">
+                                <p class="text-base font-medium text-[#878787]">Hari 5</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Huge-icon/device/solid/lock.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-[20px] mt-[17px] flex border-b-2 pb-[16px]">
+                        <div class="space-y-[7px]">
+                            <img src="resources/Dashboard Page/Rectangle 34624358.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624359.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360.png" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-[30px] mx-[20px] flex justify-between">
+                        <div class="flex ">
+                            <div class="">
+                                <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[264px] h-[208px] bg-white drop-shadow ml-[30px] mt-[40px]">
+                    <div class="flex items-center justify-between mx-[20px]">
+                        <div class="flex items-center">
+                            <div class="">
+                                <a href="#" class="flex items-center py-2 ml-[4px] rounded-lg  group">
+                                    <img src="resources/Dashboard Page/Vector.svg" alt=""
+                                        class="py-[7px] px-[12px] bg-[#399147] rounded-[50px]">
+                                </a>
+                            </div>
+                            <div class="ml-[6px]">
+                                <p class="text-base font-medium text-[#878787]">Hari 6</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Huge-icon/device/solid/lock.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-[20px] mt-[17px] flex border-b-2 pb-[16px]">
+                        <div class="space-y-[7px]">
+                            <img src="resources/Dashboard Page/Rectangle 34624358.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624359.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360.png" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-[30px] mx-[20px] flex justify-between">
+                        <div class="flex ">
+                            <div class="">
+                                <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[264px] h-[208px] bg-white drop-shadow ml-[30px] mt-[40px]">
+                    <div class="flex items-center justify-between mx-[20px]">
+                        <div class="flex items-center">
+                            <div class="">
+                                <a href="#" class="flex items-center py-2 ml-[4px] rounded-lg  group">
+                                    <img src="resources/Dashboard Page/Vector.svg" alt=""
+                                        class="py-[7px] px-[12px] bg-[#399147] rounded-[50px]">
+                                </a>
+                            </div>
+                            <div class="ml-[6px]">
+                                <p class="text-base font-medium text-[#878787]">Hari 7</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Huge-icon/device/solid/lock.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-[20px] mt-[17px] flex border-b-2 pb-[16px]">
+                        <div class="space-y-[7px]">
+                            <img src="resources/Dashboard Page/Rectangle 34624358.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624359.png" alt="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360.png" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-[30px] mx-[20px] flex justify-between">
+                        <div class="flex ">
+                            <div class="">
+                                <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="resources/Dashboard Page/Rectangle 34624360-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="h-[650px] w-[324px] bg-white mt-[50px] ml-[50px] rounded-lg">
+                <div class="p-[30px]">
+                    <p class="text-2xl font-medium">Challenge Progress 🔥</p>
+                    <p class="text-lg font-normal text-[#878787]">Persantase Penyelesaian</p>
+                    <div class="relative">
+                        <img src="resources/Dashboard Page/Group 427319178.png" alt="" class="mx-auto my-[35px]">
+                        <div class="absolute top-[80px] right-[88px]">
+                            <p class="text-4xl font-medium">27%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pl-[30px]">
+                    <p class="text-2xl font-medium">Task ✅</p>
+                </div>
+                <div class="flex flex-wrap space-x-[17px]">
+                    <div class="pl-[30px]">
+                        <div class="w-[125px] h-[80px] bg-[#399147] bg-opacity-10 rounded-lg mt-[30px]">
+                            <p class="ml-[10px] pt-[7px] text-[#878787]">TOTAL</p>
+                            <p class="border-l-2 border-[#399147] pl-[12px] ml-[10px] text-[28px] font-medium">36</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="w-[125px] h-[80px] bg-[#F07808] bg-opacity-10 rounded-lg mt-[30px]">
+                            <p class="ml-[10px] pt-[7px] text-[#878787]">COMPLETE</p>
+                            <p class="border-l-2 border-[#F07808] pl-[12px] ml-[10px] text-[28px] font-medium">7</p>
+                        </div>
+                    </div>
+                    <div class="pl-[12px] mt-[14px]">
+                        <div class="w-[125px] h-[80px] bg-[#F938FF] bg-opacity-10 rounded-lg ">
+                            <p class="ml-[10px] pt-[7px] text-[#878787]">IN PROGRESS</p>
+                            <p class="border-l-2 border-[#F938FF] pl-[12px] ml-[10px] text-[28px] font-medium">3</p>
+                        </div>
+                    </div>
+                    <div class=" mt-[14px]">
+                        <div class="w-[125px] h-[80px] bg-[#0055FF] bg-opacity-10 rounded-lg ">
+                            <p class="ml-[10px] pt-[7px] text-[#878787]">WAITING</p>
+                            <p class="border-l-2 border-[#0055FF] pl-[12px] ml-[10px] text-[28px] font-medium">36</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="w-[324px] h-[275px] bg-white ml-[45px] mt-[30px] rounded-lg">
+                    <div class="flex justify-between px-[24px] items-center pt-[30px]">
+                        <div class="">
+                            <p class="text-black text-lg">Trending</p>
+                        </div>
+                        <div class="">
+                            <p class="text-sm font-medium text-[#399147]">Lihat Semua →</p>
+                        </div>
+                    </div>
+                    <div class="flex mt-[22px]  pl-[24px]">
+                        <div class="">
+                            <img src="resources/Dashboard Page/Rectangle 34624315.png" alt=""
+                                class="rounded-md mr-[16px]">
+                        </div>
+                        <div class="ml-[10px]">
+                            <div class="">
+                                <p class="text-xs font-bold w-[215px] pr-[24px]">Ini Rekomendasi Cream Penghilang Flek
+                                    Hitam Usia 40 di Apotek</p>
+                            </div>
+                            <div class="">
+                                <p class="text-sm text-[#399147] mt-[6px]">Baca Selengkapnya...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex  pl-[24px] pt-[18px]">
+                        <div class="">
+                            <img src="resources/Dashboard Page/Rectangle 34624343.png" alt=""
+                                class="rounded-md mr-[16px]">
+                        </div>
+                        <div class="ml-[10px]">
+                            <div class="">
+                                <p class="text-xs font-bold w-[215px] pr-[24px]">6 Bahaya Cium Bayi Sembarangan yang
+                                    Jarang Diketahui</p>
+                            </div>
+                            <div class="">
+                                <p class="text-sm text-[#399147] mt-[6px]">Baca Selengkapnya...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Hero Card ends -->
+</body>
+
+</html>
